@@ -11,4 +11,8 @@ public class Operaciones {
 	public int suma(){
 		return this.num1 + this.num2;
 	}
+	
+	public int multiplicacion(){
+		return this.num1 * this.num2;
+	}
 }

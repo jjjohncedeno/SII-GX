@@ -13,5 +13,6 @@ public class Programa {
 		n2 = sc.nextInt();
 		Operaciones op= new Operaciones(n,n2);
 		System.out.println("La suma de los números es: " + (op.suma()));
+		System.out.println("La multiplicacion de los números es: " + (op.multiplicacion()));
 	}
 }

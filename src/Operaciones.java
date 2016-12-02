@@ -11,4 +11,11 @@ public class Operaciones {
 	public int suma(){
 		return this.num1 + this.num2;
 	}
+	
+	public void mayor(){
+	    if (num1>num2)
+	        System.out.println(num1 + " es mayor que " + num2);
+	      else
+	        System.out.println(num2 + " es mayor que " + num1);
+	}
 }

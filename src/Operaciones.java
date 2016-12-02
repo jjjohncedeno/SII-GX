@@ -13,6 +13,7 @@ public class Operaciones {
 	}
 
 
+
 	
 	public void mayor(){
 	    if (num1>num2)
@@ -28,6 +29,12 @@ public class Operaciones {
 
 	public int potencia(){
 		return (int) Math.pow(this.num1, this.num2);
+	}
+
+
+	
+	public double radicacion(){
+		return (Math.pow(this.num1,(1.0/this.num2)));
 	}
 
 }

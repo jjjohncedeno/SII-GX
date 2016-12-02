@@ -11,4 +11,8 @@ public class Operaciones {
 	public int suma(){
 		return this.num1 + this.num2;
 	}
+	
+	public double radicacion(){
+		return (Math.pow(this.num1,(1.0/this.num2)));
+	}
 }

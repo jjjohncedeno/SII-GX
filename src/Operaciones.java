@@ -12,9 +12,6 @@ public class Operaciones {
 		return this.num1 + this.num2;
 	}
 
-
-
-
 	
 	public void mayor(){
 	    if (num1>num2)
@@ -44,4 +41,8 @@ public class Operaciones {
 		return this.num1/this.num2;
 	}
 
+	
+	public int multiplicacion(){
+		return this.num1 * this.num2;
+	}
 }

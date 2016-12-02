@@ -28,5 +28,6 @@ public class Programa {
 			System.out.println("No se puede dividir para cero");			
 		}
 
+		System.out.println("La multiplicacion de los números es: " + (op.multiplicacion()));
 	}
 }

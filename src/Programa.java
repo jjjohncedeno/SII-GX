@@ -13,5 +13,12 @@ public class Programa {
 		n2 = sc.nextInt();
 		Operaciones op= new Operaciones(n,n2);
 		System.out.println("La suma de los números es: " + (op.suma()));
+		
+		//Imprimir la división
+		if (n2!=0){
+			System.out.println("La división de los números es: " + (op.division()));
+		}else{
+			System.out.println("No se puede dividir para cero");			
+		}
 	}
 }

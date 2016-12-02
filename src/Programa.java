@@ -14,9 +14,19 @@ public class Programa {
 		Operaciones op= new Operaciones(n,n2);
 
 		System.out.println("La suma de los números es: " + (op.suma()));
+
 		System.out.println("La potencia del numero a elevado al numero b es: " + (op.potencia()));
 
 		System.out.println("La radicacion de los números es: " + (op.radicacion()));
+
+
+		
+		//Imprimir la división
+		if (n2!=0){
+			System.out.println("La división de los números es: " + (op.division()));
+		}else{
+			System.out.println("No se puede dividir para cero");			
+		}
 
 	}
 }

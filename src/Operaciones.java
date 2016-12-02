@@ -14,6 +14,7 @@ public class Operaciones {
 
 
 
+
 	
 	public void mayor(){
 	    if (num1>num2)
@@ -35,6 +36,12 @@ public class Operaciones {
 	
 	public double radicacion(){
 		return (Math.pow(this.num1,(1.0/this.num2)));
+	}
+
+
+	
+	public double division(){
+		return this.num1/this.num2;
 	}
 
 }
